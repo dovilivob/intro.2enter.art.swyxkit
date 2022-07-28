@@ -36,7 +36,7 @@
 			<NavLink href="/">Home</NavLink>
 		</li>
 		<li>
-			<NavLink href="/blog">Blog</NavLink>
+			<NavLink href="/work">Work</NavLink>
 		</li>
 		<li>
 			<NavLink href="/about">About</NavLink>
