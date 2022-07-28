@@ -5,7 +5,7 @@
 		SITE_TITLE,
 		SITE_DESCRIPTION,
 		DEFAULT_OG_IMAGE,
-		MY_TWITTER_HANDLE
+		MY_INSTAGRAM_HANDLE
 	} from '$lib/siteConfig';
 	export const prerender = true; // index page is most visited, lets prerender
 </script>
@@ -25,11 +25,11 @@
 	<meta name="Description" content={SITE_DESCRIPTION} />
 	<meta property="og:description" content={SITE_DESCRIPTION} />
 	<meta property="og:image" content={DEFAULT_OG_IMAGE} />
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} />
-	<meta name="twitter:title" content={SITE_TITLE} />
-	<meta name="twitter:description" content={SITE_DESCRIPTION} />
-	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
+	<!-- <meta name="twitter:card" content="summary" /> -->
+	<!-- <meta name="twitter:creator" content={'@' + MY_TWITTER_HANDLE} /> -->
+	<!-- <meta name="twitter:title" content={SITE_TITLE} /> -->
+	<!-- <meta name="twitter:description" content={SITE_DESCRIPTION} /> -->
+	<!-- <meta name="twitter:image" content={DEFAULT_OG_IMAGE} /> -->
 </svelte:head>
 
 <div
@@ -48,49 +48,53 @@
 				!
 			</h1>
 			<h2 class="mb-4 text-gray-700 dark:text-gray-200">
-				An opinionated blog starter for <span class="font-semibold"
-					>SvelteKit + Tailwind + Netlify.</span
-				> Refreshed for 2022!
+				<!-- An opinionated blog starter for <span class="font-semibold" -->
+				<!-- 	>SvelteKit + Tailwind + Netlify.</span -->
+				<!-- > Refreshed for 2022! -->
+        <br> 
+          2ENTER Studio 由新媒體藝術創作者<span class="font-semibold">莊恩齊、陳政維、邱傑義、劉吉榮</span>所組成,
+          主要使用音樂、影像、動畫、網路、裝置結合舞蹈以及行為演出進行跨領域視
+          覺藝術創作。
 			</h2>
-			<p class="mb-16 text-gray-600 dark:text-gray-400">
-				<a href={REPO_URL}>View source here!</a>
-			</p>
+			<!-- <p class="mb-16 text-gray-600 dark:text-gray-400"> -->
+			<!-- 	<a href={REPO_URL}>View source here!</a> -->
+			<!-- </p> -->
 		</div>
 		<!-- <div
 				class="w-[80px] h-[80px] rounded-full sm:w-[176px] sm:h-[136px] relative mb-8 sm:mb-0 mr-auto bg-cyan-300 bg-opacity-25"
 			/> -->
 	</div>
 
-	<section class="mb-16 w-full">
-		<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl">
-			Featured Posts
-		</h3>
-		<div class="flex flex-col gap-6 md:flex-row">
-			<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" />
-			<FeatureCard
-				title="Moving to a GitHub CMS"
-				href="/moving-to-a-github-cms"
-				stringData="Jan 2022"
-			/>
-			<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" />
-		</div>
-		<a
-			class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200"
-			href="/blog"
-			>See latest posts<svg
-				xmlns="http://www.w3.org/2000/svg"
-				fill="none"
-				viewBox="0 0 24 24"
-				class="ml-1 h-6 w-6"
-				><path
-					stroke="currentColor"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z"
-				/></svg
-			></a
-		>
-	</section>
-	<Newsletter />
+	<!-- <section class="mb-16 w-full"> -->
+	<!-- 	<h3 class="mb-6 text-2xl font-bold tracking-tight text-black dark:text-white md:text-4xl"> -->
+	<!-- 		Featured Posts -->
+	<!-- 	</h3> -->
+	<!-- 	<div class="flex flex-col gap-6 md:flex-row"> -->
+	<!-- 		<FeatureCard title="Welcome to swyxkit 2022!" href="/welcome" stringData="Jan 2022" /> -->
+	<!-- 		<FeatureCard -->
+	<!-- 			title="Moving to a GitHub CMS" -->
+	<!-- 			href="/moving-to-a-github-cms" -->
+	<!-- 			stringData="Jan 2022" -->
+	<!-- 		/> -->
+	<!-- 		<FeatureCard title="HTML Ipsum demo" href="/moo" stringData="Jan 2022" /> -->
+	<!-- 	</div> -->
+	<!-- 	<a -->
+	<!-- 		class="mt-8 flex h-6 rounded-lg leading-7 text-gray-600 transition-all dark:text-gray-400 dark:hover:text-gray-200" -->
+	<!-- 		href="/blog" -->
+	<!-- 		>See latest posts<svg -->
+	<!-- 			xmlns="http://www.w3.org/2000/svg" -->
+	<!-- 			fill="none" -->
+	<!-- 			viewBox="0 0 24 24" -->
+	<!-- 			class="ml-1 h-6 w-6" -->
+	<!-- 			><path -->
+	<!-- 				stroke="currentColor" -->
+	<!-- 				stroke-linecap="round" -->
+	<!-- 				stroke-linejoin="round" -->
+	<!-- 				stroke-width="2" -->
+	<!-- 				d="M17.5 12h-15m11.667-4l3.333 4-3.333-4zm3.333 4l-3.333 4 3.333-4z" -->
+	<!-- 			/></svg -->
+	<!-- 		></a -->
+	<!-- 	> -->
+	<!-- </section> -->
+	<!-- <Newsletter /> -->
 </div>

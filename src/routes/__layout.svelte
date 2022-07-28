@@ -1,5 +1,5 @@
 <script context="module">
-	import { MY_TWITTER_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
+	import { MY_INSTAGRAM_HANDLE, MY_YOUTUBE, REPO_URL, SITE_TITLE } from '$lib/siteConfig';
 </script>
 
 <script>
@@ -29,19 +29,19 @@
 		<div class="flex flex-col space-y-4">
 			<a class="text-gray-500 transition hover:text-gray-300" href="/">Home</a>
 			<a class="text-gray-500 transition hover:text-gray-300" href="/about">About</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a>
-			<a class="text-gray-500 transition hover:text-gray-300" href="/api/rss.xml" rel="external">
-				RSS
-			</a>
+			<!-- <a class="text-gray-500 transition hover:text-gray-300" href="/#newsletter">Newsletter</a> -->
+			<!-- <a class="text-gray-500 transition hover:text-gray-300" href="/api/rss.xml" rel="external"> -->
+			<!-- 	RSS -->
+			<!-- </a> -->
 		</div>
 		<div class="flex flex-col space-y-4">
 			<a
 				class="text-gray-500 transition hover:text-gray-300"
 				target="_blank"
 				rel="noopener noreferrer"
-				href={'https://twitter.com/intent/follow?screen_name=' + MY_TWITTER_HANDLE}
+				href={'https://instagram.com/' + MY_INSTAGRAM_HANDLE}
 			>
-				Twitter
+				Instagram
 			</a>
 			<a
 				class="text-gray-500 transition hover:text-gray-300"

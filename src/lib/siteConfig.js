@@ -6,8 +6,8 @@ export const SITE_TITLE = '2enter Studio';
 export const SITE_DESCRIPTION = "swyx's default SvelteKit + Tailwind starter";
 export const DEFAULT_OG_IMAGE =
   'https://user-images.githubusercontent.com/6764957/147861359-3ad9438f-41d1-47c8-aa05-95c7d18497f0.png';
-export const MY_TWITTER_HANDLE = 'swyx';
-export const MY_YOUTUBE = 'https://youtube.com/swyxTV';
+export const MY_INSTAGRAM_HANDLE = '2enter.tw';
+export const MY_YOUTUBE = 'https://youtube.com/channel/UCPSGvMqkM0eAeAoe-7sU8Wg';
 
 // dont forget process.env.GH_TOKEN
 // if supplied, raises rate limit from 60 to 5000
